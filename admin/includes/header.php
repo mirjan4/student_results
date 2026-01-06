@@ -31,7 +31,7 @@ if (!isset($class_filter)) $class_filter = '';
     <!-- Sidebar -->
     <aside class="sidebar" id="sidebar">
         <div class="sidebar-brand">
-            <i class="bi bi-mortarboard-fill me-2"></i> EduAdmin
+            <i class="bi bi-mortarboard-fill me-2"></i> Admin
         </div>
         <div class="sidebar-menu">
             <a href="dashboard.php" class="nav-item <?php echo $nav_active === 'dashboard' ? 'active' : ''; ?>">

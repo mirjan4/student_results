@@ -76,15 +76,15 @@ include __DIR__ . '/includes/header.php';
                 <div class="row g-4">
                     <div class="col-md-4">
                         <label for="register_no" class="form-label">Register Number <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control" id="register_no" name="register_no" required placeholder="e.g. REG001">
+                        <input type="text" class="form-control" id="register_no" name="register_no" required >
                     </div>
                     <div class="col-md-4">
                         <label for="name" class="form-label">Student Name <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control" id="name" name="name" required placeholder="e.g. John Doe">
+                        <input type="text" class="form-control" id="name" name="name" required >
                     </div>
                     <div class="col-md-4">
                         <label for="class" class="form-label">Class <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control" id="class" name="class" required placeholder="e.g. 10th Grade">
+                        <input type="text" class="form-control" id="class" name="class" required >
                     </div>
                 </div>
 
